@@ -1,0 +1,9 @@
+SCR_GameModeCampaignMP : "{0F307326459A1395}Prefabs/MP/Modes/GameMode_Base.et" {
+ ID "50A6CDA6293CD10B"
+ components {
+  SCR_ArsenalManagerComponent "{5D2085C84B101F2B}" {
+  }
+  SerializerInventoryStorageManagerComponent "{5D2085C84551CAB9}" {
+  }
+ }
+}

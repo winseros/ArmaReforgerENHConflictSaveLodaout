@@ -1,0 +1,113 @@
+SizeLayoutWidgetClass {
+ Name "M1_SelectLoadoutWidget"
+ components {
+  M1_ConflictLoadoutWidgetComponent "{5D1EB2EA994BCD45}" {
+  }
+ }
+ {
+  OverlayWidgetClass "{5D1E9497023D01AA}" {
+   Name "Overlay0"
+   Slot AlignableSlot "{5D1E9497023D0174}" {
+    HorizontalAlign 3
+   }
+   {
+    BlurWidgetClass "{5D1E9490E25377AD}" {
+     Name "Blur0"
+     Slot OverlayWidgetSlot "{5D1E9490E2537776}" {
+     }
+    }
+    ImageWidgetClass "{5D1E949762651CE5}" {
+     Name "Bckg"
+     Slot OverlayWidgetSlot "{5D1E949762651C8E}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+     }
+     Color 0 0 0 0.863
+    }
+    HorizontalLayoutWidgetClass "{5D1E94948F668D11}" {
+     Name "HorizontalLayout0"
+     Slot OverlayWidgetSlot "{5D1EB2EA87000A49}" {
+      HorizontalAlign 3
+      VerticalAlign 3
+      Padding 10 10 10 10
+     }
+     {
+      TextWidgetClass "{5D1E90C4C342BEE0}" {
+       Name "TextLayout"
+       Slot LayoutSlot "{5D1E90C4C342BE8D}" {
+        VerticalAlign 1
+       }
+       Text "#m1_ui_text_loadout"
+       "Font Size" 28
+      }
+      ButtonWidgetClass "{5D1E94951F25B1D4}" : "{75C912A1C89BE6C2}UI/layouts/WidgetLibrary/Buttons/WLib_ButtonText.layout" {
+       Name "ButtonDefault"
+       Slot LayoutSlot "{5D1E94951F25B1F4}" {
+        Padding 10 0 0 0
+        SizeMode Fill
+       }
+       components {
+        SCR_ButtonTextComponent "{5548F0143AE99095}" {
+         m_bCanBeToggled 1
+         m_bIsToggled 1
+         m_sText "#M1_UI_Button_LoadoutDefault"
+        }
+       }
+       {
+        SizeLayoutWidgetClass "{5548EB41A8E48247}" {
+         Prefab "{5548EB41A8E48247}"
+         {
+          OverlayWidgetClass "{5548EB41A8E48245}" {
+           Prefab "{5548EB41A8E48245}"
+           {
+            TextWidgetClass "{5548F014E72FB9DA}" {
+             Prefab "{5548F014E72FB9DA}"
+             Slot OverlayWidgetSlot "{55708DE55528756B}" {
+              Padding 0 10 0 10
+             }
+             "Font Size" 28
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+      ButtonWidgetClass "{5D1E94951CCE2644}" : "{75C912A1C89BE6C2}UI/layouts/WidgetLibrary/Buttons/WLib_ButtonText.layout" {
+       Name "ButtonSaved"
+       Slot LayoutSlot "{5D1E94951CCE2667}" {
+        Padding 10 0 0 0
+        SizeMode Fill
+       }
+       components {
+        SCR_ButtonTextComponent "{5548F0143AE99095}" {
+         m_bCanBeToggled 1
+         m_sText "#M1_UI_Button_LoadoutSaved"
+        }
+       }
+       {
+        SizeLayoutWidgetClass "{5548EB41A8E48247}" {
+         Prefab "{5548EB41A8E48247}"
+         {
+          OverlayWidgetClass "{5548EB41A8E48245}" {
+           Prefab "{5548EB41A8E48245}"
+           {
+            TextWidgetClass "{5548F014E72FB9DA}" {
+             Prefab "{5548F014E72FB9DA}"
+             Slot OverlayWidgetSlot "{55708DE55528756B}" {
+              Padding 0 10 0 10
+             }
+             "Font Size" 28
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

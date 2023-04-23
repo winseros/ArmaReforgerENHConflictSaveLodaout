@@ -1,0 +1,22 @@
+ActionsManagerComponent {
+ ActionContexts {
+  UserActionContext "{5D22FA562E187F6C}" {
+   ContextName "M1"
+   Position PointInfo "{5D22FA562E187F16}" {
+    Offset 0 1.3 0.1
+   }
+  }
+ }
+ additionalActions {
+  SCR_SaveArsenalLoadout "{5D22FA562E187F14}" {
+   ParentContextList {
+    "M1"
+   }
+   UIInfo UIInfo "{5D22FA562E187F12}" {
+    Name "#M1_Action_LoadoutSaveName"
+   }
+   VisibilityRange 5
+   Duration 0.5
+  }
+ }
+}

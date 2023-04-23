@@ -1,0 +1,96 @@
+FrameWidgetClass {
+ {
+  OverlayWidgetClass "{595464A8B661C90E}" {
+   Prefab "{595464A8B661C90E}"
+   {
+    SizeLayoutWidgetClass "{589F049780D13CA5}" {
+     Prefab "{589F049780D13CA5}"
+     {
+      VerticalLayoutWidgetClass "{589F049780D13CA3}" {
+       Prefab "{589F049780D13CA3}"
+       {
+        OverlayWidgetClass "{589F0497F7A00346}" {
+         Prefab "{589F0497F7A00346}"
+         {
+          VerticalLayoutWidgetClass "{55B2D3A206E518A2}" {
+           Prefab "{55B2D3A206E518A2}"
+           {
+            SizeLayoutWidgetClass "{5D1E949556FE90E9}" : "{86B75784B65CAE6B}UI/layouts/Menus/RoleSelection/M1_SelectLoadoutWidget.layout" {
+             Name "M1_SelectLoadout"
+             Slot LayoutSlot "{5D1E949556FE9086}" {
+              Padding 0 0 0 5
+             }
+            }
+            OverlayWidgetClass "{5608C99AACCEEE09}" {
+             Prefab "{5608C99AACCEEE09}"
+             Slot LayoutSlot "{58588AE6C00B8FF2}" {
+             }
+             {
+              BlurWidgetClass "{5608E0C0F5B6B84B}" {
+               Prefab "{5608E0C0F5B6B84B}"
+               Slot OverlayWidgetSlot "{5608E0C0F5B6B869}" {
+               }
+              }
+              ImageWidgetClass "{58588ADAD7BF24D8}" {
+               Prefab "{58588ADAD7BF24D8}"
+               Slot OverlayWidgetSlot "{58588ADACCEF1FB1}" {
+               }
+               Size 32 32
+              }
+              HorizontalLayoutWidgetClass "{5608E0C7C4D2F2E6}" {
+               Prefab "{5608E0C7C4D2F2E6}"
+               Slot OverlayWidgetSlot "{5608E0C7C4D2F204}" {
+               }
+               {
+                TextWidgetClass "{5608E0C7C27CE4EB}" {
+                 Prefab "{5608E0C7C27CE4EB}"
+                 Slot LayoutSlot "{5608E0C7C27CE40E}" {
+                 }
+                }
+               }
+              }
+             }
+            }
+            OverlayWidgetClass "{58588ADA2B0C0939}" {
+             Prefab "{58588ADA2B0C0939}"
+             {
+              HorizontalLayoutWidgetClass "{58588AF1851144DF}" {
+               Prefab "{58588AF1851144DF}"
+               {
+                ButtonWidgetClass "{58588AECFE8220E6}" {
+                 Prefab "{58588AECFE8220E6}"
+                 {
+                  SizeLayoutWidgetClass "{5562AD435529FB36}" {
+                   Prefab "{5562AD435529FB36}"
+                   {
+                    OverlayWidgetClass "{000000005E70868E}" {
+                     Prefab "{000000005E70868E}"
+                     {
+                      HorizontalLayoutWidgetClass "{00000000E3602307}" {
+                       Prefab "{00000000E3602307}"
+                       Slot OverlayWidgetSlot "{547290FBCA5E9358}" {
+                        Padding 0 0 0 0
+                       }
+                      }
+                     }
+                    }
+                   }
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

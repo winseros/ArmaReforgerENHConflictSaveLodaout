@@ -1,0 +1,15 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "5690D9DBA5D97663"
+ m_aPlayerLoadouts {
+  M1_ArsenalPlayerLoadout "{5D271CB70620F0B8}" {
+   m_sLoadoutName "M1 Arsenal Loadout US"
+   m_sLoadoutResource "{6F2B6DD4E9CAD20C}Prefabs/Characters/Factions/BLUFOR/US_Army/M1_Character_US_Base.et"
+   m_sAffiliatedFaction "US"
+  }
+  M1_ArsenalPlayerLoadout "{5D271CB7040FEF04}" {
+   m_sLoadoutName "M1 Arsenal Loadout USSR"
+   m_sLoadoutResource "{3FA2DC69C6CB3E8D}Prefabs/Characters/Factions/OPFOR/USSR_Army/M1_Character_USSR_Base.et"
+   m_sAffiliatedFaction "USSR"
+  }
+ }
+}

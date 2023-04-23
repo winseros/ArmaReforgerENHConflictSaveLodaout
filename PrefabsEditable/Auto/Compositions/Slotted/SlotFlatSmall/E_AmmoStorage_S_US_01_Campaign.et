@@ -1,0 +1,12 @@
+GenericEntity : "{DAD98E09B0D4B4BE}Prefabs/Compositions/Slotted/SlotFlatSmall/AmmoStorage_S_US_01_Campaign.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditorLinkComponent "{5A5E74140D73D722}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{5A5E74140ECDA089}" {
+     m_Prefab "{608F290C48C726FC}PrefabsEditable/Auto/Structures/Signs/Military/M1_E_Sign_AmmoStorage_US_01.et"
+    }
+   }
+  }
+ }
+}

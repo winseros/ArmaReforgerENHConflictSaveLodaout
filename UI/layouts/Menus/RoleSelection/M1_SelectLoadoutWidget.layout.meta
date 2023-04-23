@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{86B75784B65CAE6B}UI/layouts/Menus/RoleSelection/M1_SelectLoadoutWidget.layout"
+ Configurations {
+  LayoutResourceClass PC {
+  }
+  LayoutResourceClass XBOX_ONE : PC {
+  }
+  LayoutResourceClass XBOX_SERIES : PC {
+  }
+  LayoutResourceClass PS4 : PC {
+  }
+  LayoutResourceClass HEADLESS : PC {
+  }
+ }
+}

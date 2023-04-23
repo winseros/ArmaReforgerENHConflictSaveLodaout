@@ -1,0 +1,35 @@
+GenericEntity : "{B3BCE4B6920ED5C0}Prefabs/Structures/Signs/Military/Sign_AmmoStorage_US_01.et" {
+ ID "50D67C36F4200F97"
+ components {
+  SCR_EditableEntityComponent "{5A2073F0C2B55C44}" : "{7933327C6791C5D0}Prefabs/Editor/Components/Structures_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_Sign_AmmoStorage_US_01_Name"
+    m_Image "{BB66D6FDBA126EA2}UI/Textures/EditorPreviews/Auto/Structures/Signs/Military/E_Sign_AmmoStorage_US_01.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels {
+     11
+    }
+    m_aAutoLabels {
+     108 112 1 121
+    }
+   }
+  }
+  SCR_PreviewEntityComponent "{5A2073F0C2B43FB9}" : "{6CADA7A88A6265FD}Prefabs/Editor/Components/PreviewEntityComponentClass.ct" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{5D22F4D56250359D}" {
+     m_iParentID -1
+     m_Mesh "{A5B43FE12B863CFB}Assets/Structures/Signs/Military/SignRectangle_01_75x45_double.xob"
+     m_Flags HORIZONTAL
+     m_Shape MESH
+     m_iPivotID ""
+     m_fScale 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  ActionsManagerComponent "{5D22FA5627F35BA2}" : "{496390BDB898D659}Prefabs/Components/M1_SaveLoadoutActionManagerComponent.ct" {
+  }
+ }
+}

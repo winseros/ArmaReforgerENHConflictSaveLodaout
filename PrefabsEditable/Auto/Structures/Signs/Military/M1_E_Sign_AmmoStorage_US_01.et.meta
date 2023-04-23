@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{608F290C48C726FC}PrefabsEditable/Auto/Structures/Signs/Military/M1_E_Sign_AmmoStorage_US_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

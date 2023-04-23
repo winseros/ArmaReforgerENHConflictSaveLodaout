@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6F2B6DD4E9CAD20C}Prefabs/Characters/Factions/BLUFOR/US_Army/M1_Character_US_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

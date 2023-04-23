@@ -1,0 +1,84 @@
+SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+     }
+    }
+   }
+   Attributes ItemAttributeCollection "{52BAC70D641B89B1}" {
+   }
+  }
+  FactionAffiliationComponent "{5D2E71532CE9D5D0}" {
+   "faction affiliation" "US"
+  }
+  MeshObject "{520EA1D2F659C81F}" {
+   Materials {
+    MaterialAssignClass "{5D2E71532CE9D5DB}" {
+     SourceMaterial "Basebody_01_Male_Arms"
+     AssignedMaterial "{73729450190803B0}Assets/Characters/Basebody/Data/Arms_African_01.emat"
+    }
+    MaterialAssignClass "{5D2E71532CE9D5D8}" {
+     SourceMaterial "Basebody_01_Male_Arms_wound"
+     AssignedMaterial "{C624B1A866D83317}Assets/Characters/Basebody/Data/Basebody_01_Male_Arms_African_wound.emat"
+    }
+    MaterialAssignClass "{5D2E71532CE9D5C7}" {
+     SourceMaterial "Basebody_01_Male_Body"
+     AssignedMaterial "{D82597AFCF8B7E6B}Assets/Characters/Basebody/Data/Body_African_01.emat"
+    }
+    MaterialAssignClass "{5D2E71532CE9D5C5}" {
+     SourceMaterial "Basebody_01_Male_Body_wound"
+     AssignedMaterial "{15944F28620EDC94}Assets/Characters/Basebody/Data/Basebody_01_Male_Body_African_wound.emat"
+    }
+   }
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Rifleman"
+    m_Image "{DAC5F0C685E3EE07}UI/Textures/EditorPreviews/Characters/BLUFOR/US_Army/Character_US_Base.edds"
+    m_sFaction "US"
+    m_aAuthoredLabels + {
+     2 11
+    }
+    m_aAutoLabels {
+    }
+   }
+  }
+  SCR_GadgetManagerComponent "{520EA1D2DB118DF3}" {
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponSlotIndex 0
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponSlotIndex 1
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{04F4D8CBA36A534B}Prefabs/Characters/Heads/Head_Black_02.et"
+     Body "{6253161EEAB88EAB}Prefabs/Characters/Basebody/CharacterBasebody_Black_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Jacket {
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Boots {
+    }
+    LoadoutSlotInfo Back {
+    }
+    LoadoutSlotInfo Vest {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+  }
+ }
+}
