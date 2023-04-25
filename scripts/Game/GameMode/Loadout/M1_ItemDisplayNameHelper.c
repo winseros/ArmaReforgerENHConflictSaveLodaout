@@ -2,6 +2,8 @@ class M1_ItemDisplayNameHelper
 {
 	static bool GetItemDisplayName(ResourceName resourceName, out string displayName)
 	{
+		//Credits: https://feedback.bistudio.com/T167392
+
 		IEntitySource entitySource = SCR_BaseContainerTools.FindEntitySource(Resource.Load(resourceName));
 		if (!entitySource)
 			return false;

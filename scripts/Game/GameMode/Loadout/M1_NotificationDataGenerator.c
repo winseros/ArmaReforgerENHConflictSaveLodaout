@@ -2,15 +2,14 @@ class M1_NotificationParameterPack
 {
 	int m_p1, m_p2, m_p3, m_p4, m_p5;
 	
-	int P1() { return m_p1; }
-	
-	int P2() { return m_p2; }
-	
-	int P3() { return m_p3; }
-	
-	int P4() { return m_p4; }
-	
-	int P5() { return m_p5; }
+	void GetParams(out int p1, out int p2, out int p3, out int p4, out int p5)
+	{
+		p1 = m_p1;
+		p2 = m_p2;
+		p3 = m_p3;
+		p4 = m_p4;
+		p5 = m_p5;
+	}
 	
 	void M1_NotificationParameterPack(int p1, int p2 = 0, int p3 = 0, int p4 = 0, int p5 = 0)
 	{

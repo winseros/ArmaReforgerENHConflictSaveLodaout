@@ -85,7 +85,9 @@ modded class SCR_ArsenalManagerComponent
 			return;
 		}
 		
-		SCR_NotificationsComponent.SendToPlayer(playerId, notificationId, params.P1(), params.P2(), params.P3(), params.P4(), params.P5());
+		int p1, p2, p3, p4, p5;
+		params.GetParams(p1, p2, p3, p4, p5);
+		SCR_NotificationsComponent.SendToPlayer(playerId, notificationId, p1, p2, p3, p4, p5);
 	}
 	
 	protected static bool IsCampaignGameMode()
