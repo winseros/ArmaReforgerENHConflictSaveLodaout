@@ -1,0 +1,1 @@
+Allows players to save their loadouts in the Conflict game mode.

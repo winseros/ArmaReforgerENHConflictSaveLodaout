@@ -1,0 +1,12 @@
+This mod allows players to save their loadouts in the Conflict game mode.
+
+Features:
+
+* Save your loadout at Armory
+* Respawn with your saved loadout (if there is an Armory)
+
+This mod is about convinience, not about gameplay advantage, so:
+
+* It won't let you save other faction equipment
+* It won't let you save a radio backpack
+* It won't let you save more than a default number of medkits
