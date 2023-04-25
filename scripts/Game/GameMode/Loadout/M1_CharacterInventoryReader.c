@@ -4,14 +4,24 @@ class M1_CharacterInventoryReader
 	
 	private ref M1_CharacterArsenalKeyHelper m_KeyHelper;
 	
+	protected bool IsClothNodeStorage(BaseInventoryStorageComponent storage)
+	{
+		IEntity owner = storage.GetOwner();
+		bool result = owner.FindComponent(ClothNodeStorageComponent);
+		return result;
+	}
+	
 	protected void InflateContainer(M1_CharacterArsenalInventoryContainer container, BaseInventoryStorageComponent storage)
 	{
-		array<IEntity> items = {};
-		storage.GetAll(items);
-		foreach (IEntity item : items)
+		if (!IsClothNodeStorage(storage))
 		{
-			if (storage.Contains(item))
-				container.AddItemPrefabName(item.GetPrefabData().GetPrefabName());
+			array<IEntity> items = {};
+			storage.GetAll(items);
+			foreach (IEntity item : items)
+			{
+				if (storage.Contains(item))
+					container.AddItemPrefabName(item.GetPrefabData().GetPrefabName());
+			}
 		}
 		
 		array<BaseInventoryStorageComponent> compartmentStorages = {};

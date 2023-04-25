@@ -59,7 +59,10 @@ class M1_CharacterInventoryWriter
 		foreach (string itemPrefabName : itemPrefabNames)
 		{
 			IEntity item = SpawnItem(itemPrefabName);
-			storageManager.TryInsertItemInStorage(item, storage);
+			if (!storageManager.TryInsertItemInStorage(item, storage))
+			{
+				Print(string.Format("Could not equip item: %1", itemPrefabName), LogLevel.WARNING);
+			}
 		}
 		
 		array<M1_CharacterArsenalInventoryContainer> compartmentContainers = {};
