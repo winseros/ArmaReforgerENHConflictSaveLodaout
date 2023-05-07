@@ -1,0 +1,5 @@
+v1.0.1
+- Fixed localization issues when language is not english or russian
+
+v1.0.0
+- The initial version
